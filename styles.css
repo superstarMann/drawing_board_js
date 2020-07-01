@@ -1,0 +1,57 @@
+@import "reset.css";
+
+body{
+    background-color: #6eb8e2c7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.canvas {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.controls .controls_colors{
+    display: flex;
+}
+
+.controls_btns button {
+    all: unset;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;   
+    background-color: white;
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.controls{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controls .controls_btns {
+    margin-bottom: 30px;
+}
+
+
+.controls_colors .control_color {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
