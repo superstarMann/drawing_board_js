@@ -35,6 +35,10 @@ body{
     font-size: 12px;
 }
 
+.controls .controls_range{
+    margin-bottom: 15px;
+}
+
 .controls{
     margin-top: 30px;
     display: flex;
