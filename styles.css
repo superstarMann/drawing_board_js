@@ -35,6 +35,20 @@ body{
     font-size: 12px;
 }
 
+.control_eraser{
+    margin-bottom: 20px;
+}
+
+ .eraser {
+   all: unset;
+   cursor: pointer;    
+   font-weight: bold;
+   text-align: right;
+   width: 500px;
+   border-radius: 10px;
+   font-size: 30px;
+}
+
 .controls .controls_range{
     margin-bottom: 15px;
 }
@@ -49,7 +63,6 @@ body{
 .controls .controls_btns {
     margin-bottom: 30px;
 }
-
 
 .controls_colors .control_color {
     margin-right: 10px;
